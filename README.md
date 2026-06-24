@@ -5,7 +5,7 @@
 
 ### Описание правил в .gitignore для Terraform
 
-В файле .gitignore для Terraform используются следующие шаблоны:
+В файле .gitignore для Terraform используются следующие шаблоны::
 
 1. *.tfstate — звёздочка (*) означает любые символы, поэтому игнорируются все файлы с расширением .tfstate (например, terraform.tfstate, prod.tfstate).
 
@@ -22,4 +22,3 @@
 7. override.tf, override.tf.json, *_override.tf и *_override.tf.json — игнорируются файлы с точными именами override.tf и override.tf.json, а также все файлы, заканчивающиеся на _override.tf и _override.tf.json (звёздочка в начале заменяет любые символы).
 
 8. .terraformrc и terraform.rc — игнорируются файлы с точными именами .terraformrc и terraform.rc.
-
