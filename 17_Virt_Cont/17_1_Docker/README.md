@@ -46,8 +46,8 @@ docker run -d --name "rfedyunin-custom-nginx-t2" -p 127.0.0.1:8080:80 custom-ngi
 ```bash
 docker rename "rfedyunin-custom-nginx-t2" custom-nginx-t2
 ```
-![Задание 2](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_2.jpg)
-![Задание 2_1](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_2_1.jpg)
+![Задание 2](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_2.jpg)
+![Задание 2_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_2_1.jpg)
 
 
 ## Задача 3
@@ -66,9 +66,9 @@ docker rename "rfedyunin-custom-nginx-t2" custom-nginx-t2
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 ## Ответ:
-![Задание 3_1](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_3_1.jpg)
-![Задание 3_2](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_3_2.jpg)
-![Задание 3_3](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_3_3.jpg)
+![Задание 3_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_3_1.jpg)
+![Задание 3_2](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_3_2.jpg)
+![Задание 3_3](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_3_3.jpg)
 
 1. Контейнер остановился, потому что Ctrl+C отправил сигнал SIGINT главному процессу (nginx), и он завершил свою работу. Когда главный процесс останавливается, контейнер тоже останавливается
 2. Контейнер слушает порт 81 внутри, но на хосте проброшен порт 8080 → 80 (а не на 81!). Поэтому curl http://127.0.0.1:8080 больше не работает — nginx внутри слушает 81, а хост стучится на 80.
@@ -88,8 +88,8 @@ docker rename "rfedyunin-custom-nginx-t2" custom-nginx-t2
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
 ## Ответ:
-![Задание 4_1](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_4_1.jpg)
-![Задание 4_2](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_4_2.jpg)
+![Задание 4_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_4_1.jpg)
+![Задание 4_2](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_4_2.jpg)
 
 
 ## Задача 5
@@ -142,16 +142,17 @@ services:
 
 ## Ответ:
 
-![Задание 5_1](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_1.jpg)
-![Задание 5_2](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_2.jpg)
-![Задание 5_3](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_3.jpg)
-![Задание 5_4](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_4.jpg)
-![Задание 5_5](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_5.jpg)
-![Задание 5_6](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_6.jpg)
-![Задание 5_7](https://github.com/rfedyunin/devops-netology/blob/main/img/17_1_5_7.jpg)
+![Задание 5_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_1.jpg)
+![Задание 5_2](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_2.jpg)
+![Задание 5_3](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_3.jpg)
+![Задание 5_4](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_4.jpg)
+![Задание 5_5](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_5.jpg)
+![Задание 5_6](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_6.jpg)
+![Задание 5_7](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_7.jpg)
 
 После удаления файла compose.yaml и выполнения команды "docker compose up -d" получаем предупреждение, Docker Compose обнаружил "сиротские контейнеры", конкретно task5-portainer-1, так как в docker-compose.yaml файле больше не упоминается данный сервис, который ранее был запущен. Эти контейнеры могут быть удалены с помощью флага --remove-orphans. Далее повторил запуск compose с рекомендованым флагом --remove-orphans, в результате чего видим, что при запуске task5-portainer-1 был удален.
 После этого остановил compose ключом down, который одновременно останавливает и удаляет все контейнеры.
 
-
+Файл compose.yaml
+[Файл](./compose.yaml)
 ---
