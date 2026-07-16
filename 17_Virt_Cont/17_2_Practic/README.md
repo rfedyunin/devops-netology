@@ -40,7 +40,7 @@
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
 
-##Ответ:
+## Ответ:
 ![Задание 3_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_2_1.jpg)
 
 Ссылка на скрипт
@@ -72,10 +72,10 @@
 Предоставьте скриншоты  действий .
 
 ## Ответ
-![Задание 6_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_6_1.jpg)
+![Задание 6_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_2_6_1.jpg)
 
 ```bash
 docker save hashicorp/terraform:latest -o terraform.tar
 ```
-![Задание 6_2](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_6_2.jpg)
-![Задание 6_3](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_6_3.jpg)
+![Задание 6_2](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_2_6_2.jpg)
+![Задание 6_3](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_2_Practic/img/17_2_6_3.jpg)
