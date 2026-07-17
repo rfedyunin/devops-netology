@@ -38,7 +38,7 @@
 
 
 ## Ответ:
-1. ![Задание 1_1](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/17_1_In_Terraform/img/18_1_1.jpg)
+1. ![Задание 1_1](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_1_In_Terraform/img/18_1_1.jpg)
 
 2. В файле personal.auto.tfvars можно хранить секретные переменные, потому что он явно исключён из Git.
 
@@ -51,7 +51,7 @@ resource "docker_container" "1nginx" { - имя не должно начинат
 
 name = "example_${random_password.random_string_FAKE.resulT}" - тут заглавные буквы нужно изменить на строчные, и верное написание "name": "random_string", _FAKE лишнее
 
-![Задание 1_4](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/17_1_In_Terraform/img/18_1_4.jpg)
+![Задание 1_4](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_1_In_Terraform/img/18_1_4.jpg)
 
 5.
 ``` bash
@@ -66,12 +66,12 @@ resource "docker_container" "nginx" {
 
 ```
 
-![Задание 1_5](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/17_1_In_Terraform/img/18_1_5.jpg)
+![Задание 1_5](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_1_In_Terraform/img/18_1_5.jpg)
 
 6. Terraform перед применением изменений показывает план (preview) и запрашивает подтверждение пользователя (ввод yes). Ключ -auto-approve пропускает этот шаг подтверждения, автоматически применяя изменения без предварительного просмотра или запроса согласия. Если в коде Terraform есть ошибки, использование -auto-approve не даст возможности заметить их до применения. Это может привести к созданию некорректной инфраструктуры или сбою в процессе применения.
 Данный ключ будет полезен в автоматизированных пайплайнах непрерывной интеграции и доставки (CI/CD), его использование позволяет применять изменения без необходимости интерактивного ввода
 
-![Задание 1_6](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/17_1_In_Terraform/img/18_1_6.jpg)
+![Задание 1_6](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_1_In_Terraform/img/18_1_6.jpg)
 
 7. Содержимое файла terraform.tfstate
 ```bash
