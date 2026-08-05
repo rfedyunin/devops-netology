@@ -9,7 +9,7 @@
 
 Приложите скриншот входящих правил «Группы безопасности» в ЛК Yandex Cloud .
 ## Ответ:
-![Задание 1](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_3_Interpolation Syntax/img/18_3_1.jpg)
+![Задание 1](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_3_Interpolation_Syntax/img/18_3_1.jpg)
 
 
 ------
@@ -70,12 +70,10 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
 Пример fqdn: ```web1.ru-central1.internal```(в случае указания переменной hostname(не путать с переменной name)); ```fhm8k1oojmm5lie8i22a.auto.internal```(в случае отсутвия перменной hostname - автоматическая генерация имени,  зона изменяется на auto). нужную вам переменную найдите в документации провайдера или terraform console.
 4. Выполните код. Приложите скриншот получившегося файла.
 
-Для общего зачёта создайте в вашем GitHub-репозитории новую ветку terraform-03. Закоммитьте в эту ветку свой финальный код проекта, пришлите ссылку на коммит.
-**Удалите все созданные ресурсы**.
 
 ## Ответ:
 
-![Задание 4](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_3_Interpolation Syntax/img/18_3_4.jpg)
+![Задание 4](https://github.com/rfedyunin/devops-netology/blob/main/18_Terraform/18_3_Interpolation_Syntax/img/18_3_4.jpg)
 
 
 ------
