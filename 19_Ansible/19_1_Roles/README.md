@@ -33,5 +33,14 @@
 
 ---
 
+### Ссылка на playbook.
+[playbook](https://github.com/rfedyunin/playbook)
+
+### Ссылка на lighthouse-role.
+[lighthouse-role](https://github.com/rfedyunin/lighthouse-role)
+
+
+### Ссылка на vector-role.
+[vector-role](https://github.com/rfedyunin/vector-role)
 
 ---
