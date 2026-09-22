@@ -178,9 +178,9 @@ if __name__ == '__main__':
 
 ---
 
-![Задание 5_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_1.jpg)
 
-Ответ:
+## Ответ:
+
 **Шаг 4.**
 ![Задание 4](https://github.com/rfedyunin/devops-netology/blob/main/19_Ansible/19_2_Created_modules/tmp/19_4.jpg)
 
