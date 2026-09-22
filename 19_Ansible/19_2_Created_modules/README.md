@@ -178,18 +178,20 @@ if __name__ == '__main__':
 
 ---
 
+![Задание 5_1](https://github.com/rfedyunin/devops-netology/blob/main/17_Virt_Cont/17_1_Docker/img/17_1_5_1.jpg)
+
 Ответ:
 **Шаг 4.**
-![Задание 4](https://github.com/rfedyunin/devops-netology/blob/main/19_2_Created_modules/tmp/19_4.jpg)
+![Задание 4](https://github.com/rfedyunin/devops-netology/blob/main/19_Ansible/19_2_Created_modules/tmp/19_4.jpg)
 
 **Шаг 6.**
-![Задание 6](https://github.com/rfedyunin/devops-netology/blob/main/19_2_Created_modules/tmp/19_6.jpg)
+![Задание 6](https://github.com/rfedyunin/devops-netology/blob/main/19_Ansible/19_2_Created_modules/tmp/19_6.jpg)
 
 **Шаг 15.**
-![Задание 15](https://github.com/rfedyunin/devops-netology/blob/main/19_2_Created_modules/tmp/19_15.jpg)
+![Задание 15](https://github.com/rfedyunin/devops-netology/blob/main/19_Ansible/19_2_Created_modules/tmp/19_15.jpg)
 
 **Шаг 16.**
-![Задание 16](https://github.com/rfedyunin/devops-netology/blob/main/19_2_Created_modules/tmp/19_16.jpg)
+![Задание 16](https://github.com/rfedyunin/devops-netology/blob/main/19_Ansible/19_2_Created_modules/tmp/19_16.jpg)
 
 
 Ссылка на Collection
