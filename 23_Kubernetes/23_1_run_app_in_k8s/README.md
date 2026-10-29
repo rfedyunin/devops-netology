@@ -32,22 +32,29 @@
 
 
 ### Ответ
+
 Скриншот вывода статуса Deployment приложения.
+
 ![img_1](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_1_run_app_in_k8s/img/Screenshot_23_1.jpg)
 
 Скриншот вывода статуса Deployment приложения после увеличения количества реплик.
+
 ![img_2](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_1_run_app_in_k8s/img/Screenshot_23_2.jpg)
 
 Скриншот вывода наличия Service.
+
 ![img_3](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_1_run_app_in_k8s/img/Screenshot_23_3.jpg)
 
 Скриншот вывода результата curl.
+
 ![img_4](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_1_run_app_in_k8s/img/Screenshot_23_4.jpg)
 
 
-Ссылка на манифест: [Файл](./files/deployment.yaml)
-Ссылка на манифест: [Файл](./files/service-init.yaml)
-Ссылка на манифест: [Файл](./files/service.yaml)
+Ссылка на манифест: [deployment](./files/deployment.yaml)
+
+Ссылка на манифест: [multitool-pod](./files/multitool-pod.yaml)
+
+Ссылка на манифест: [service](./files/service.yaml)
 
 ------
 
@@ -61,16 +68,18 @@
 ### Ответ
 
 Скриншот вывода статуса Deployment приложения.
+
 ![img_5](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_1_run_app_in_k8s/img/Screenshot_23_5.jpg)
 
 
-Ссылка на манифест: [Файл](./files/deployment-init.yaml)
+Ссылка на манифест: [deployment-init](./files/deployment-init.yaml)
 
 
 Скриншот вывода наличия Service и старта приложения.
+
 ![img_6](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_1_run_app_in_k8s/img/Screenshot_23_6.jpg)
 
-Ссылка на манифест: [Файл](./files/service-init.yaml)
+Ссылка на манифест: [service-init](./files/service-init.yaml)
 
 
 ------
