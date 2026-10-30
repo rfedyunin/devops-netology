@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «Сетевое взаимодействие в Kubernetes»
+# Домашнее задание к занятию «Сетевое взаимодействие в Kubernetes» - Федюнин Р.Ю.
 
 
 ## **Задание 1: Настройка Service (ClusterIP и NodePort)**
@@ -43,7 +43,9 @@
 ![img_2](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_2_net_in_k8s/img/Screenshot_23_2_2.jpg)
 
 Ссылка на манифест: [deployment-multi-container](./files/deployment-multi-container.yaml)
+
 Ссылка на манифест: [service-clusterip](./files/service-clusterip.yaml)
+
 Ссылка на манифест: [service-nodeport](./files/service-nodeport.yaml)
 
 
@@ -77,7 +79,11 @@
 ![img_3](https://github.com/rfedyunin/devops-netology/blob/main/23_Kubernetes/23_2_net_in_k8s/img/Screenshot_23_2_3.jpg)
 
 Ссылка на манифест: [deployment-backend](./files/deployment-backend.yaml)
+
 Ссылка на манифест: [deployment-frontend](./files/deployment-frontend.yaml)
+
 Ссылка на манифест: [ingress](./files/ingress.yaml)
+
 Ссылка на манифест: [service-backend](./files/service-backend.yaml)
+
 Ссылка на манифест: [service-frontend](./files/service-frontend.yaml)
